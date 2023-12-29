@@ -10,29 +10,43 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  
 }
-body{
-    background: rgb(1,164,220);
-background: -moz-linear-gradient(90deg, rgba(1,164,220,1) 14%, rgba(2,0,36,1) 40%, rgba(0,172,255,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(1,164,220,1) 14%, rgba(2,0,36,1) 40%, rgba(0,172,255,1) 100%);
-background: linear-gradient(90deg, rgba(1,164,220,1) 14%, rgba(2,0,36,1) 40%, rgba(0,172,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01a4dc",endColorstr="#00acff",GradientType=1);
+body {
+  background: rgb(1, 164, 220);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(1, 164, 220, 1) 14%,
+    rgba(2, 0, 36, 1) 40%,
+    rgba(0, 172, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(1, 164, 220, 1) 14%,
+    rgba(2, 0, 36, 1) 40%,
+    rgba(0, 172, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(1, 164, 220, 1) 14%,
+    rgba(2, 0, 36, 1) 40%,
+    rgba(0, 172, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#01a4dc",endColorstr="#00acff",GradientType=1);
 }
 .container {
   min-height: 60vh;
   min-width: 600px;
   background-color: azure;
-  
- margin-top: 8px;
- margin-bottom: 8px;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
   padding: 11px;
 }
-.container{
+.container {
   border-radius: 10px;
-font-size: 12px;
-font-weight: 600;
-background-color: white;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: white;
 }
 .container {
   width: max-content;
