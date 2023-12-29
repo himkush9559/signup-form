@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGNUP | AIRIQ</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body{
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <img src="img/logo.png" alt="logo1" srcset="img/logo.png" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <h3>Agency Sign Up Form</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12 text-center">
+          <p>Fields marked with <strong>( * )</strong> are mandatory</p>
+        </div>
+      </div>
+      <form action="#" method="post">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="text"
+              id="floating_Input"
+              class="form-control"
+              placeholder="Company Name"
+              name="Company_name"
+              required
+            />
+            <label for="floatingInput">Company Name<strong>*</strong></label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="text"
+              class="form-control"
+              id="floatingInputName"
+              placeholder="Full Name"
+              required
+            />
+            <label for="floatingInputName">Full Name<strong>*</strong></label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="tel"
+              class="form-control"
+              id="floating_phone"
+              class="form-control"
+              placeholder="Phone Number"
+              required
+            />
+            <label for="floating_phone">Phone Number<strong>*</strong></label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="tel"
+              class="form-control"
+              id="floating_phone"
+              class="form-control"
+              placeholder="Whatsapp Number"
+              required
+            />
+            <label for="floating_phone"
+              >Whatsapp Number<strong>*</strong></label
+            >
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="email"
+              id="floating-email"
+              name="email"
+              class="form-control"
+              placeholder="Email Address"
+              required
+            />
+            <label for="floating-email">Email Address<strong>*</strong></label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="reffered"
+              class="form-control"
+              id="floating_reffered"
+              disabled
+            >
+              <option value="#"></option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+              <option value="#">#</option>
+            </select>
+            <label for="floating_reffered">reffered<strong>*</strong></label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 col-sm-12 form-floating">
+            <select
+              name="country_text"
+              id="floating_country_text"
+              class="form-control"
+              required
+            >
+              <option value="select"></option>
+              <option value="India">India</option>
+              <option value="Bhutan">Bhutan</option>
+              <option value="cyprash">Cyprash</option>
+              <option value="USA">USA</option>
+              <option value="Bangladesh">Bangladesh</option>
+              <option value="Nepal">Nepal</option>
+              <option value="Japan">Japan</option>
+            </select>
+            <label for="floating_country">Country</label>
+          </div>
+          <div class="col-md-3 col-sm-12 form-floating">
+            <select
+              name="State_text"
+              id="floating_State_text"
+              class="form-control"
+              required
+            >
+              <option value="select"></option>
+              <option value="Uttar_Pradesh">Uttar Pradesh</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Karnataka">Karnataka</option>
+            </select>
+            <label for="floating_State">State</label>
+          </div>
+          <div class="col-md-3 col-sm-12 form-floating">
+            <select
+              name="dist_text"
+              id="floating_dist_text"
+              class="form-control"
+              required
+            >
+              <option value="select"></option>
+              <option value="GautamBuddhaNagar">GautamBuddha Nagar</option>
+              <option value="Lucknow">Lucknow</option>
+              <option value="GhaziaBad">Ghaziabad</option>
+            </select>
+            <label for="FLoating-dist">Dist</label>
+          </div>
+          <div class="col-md-3 col-sm-12 form-floating">
+            <select
+              name="city_text"
+              id="floating_city_text"
+              class="form-control"
+              placeholder="city"
+              required
+            >
+              <option value="select_city">Select City</option>
+              <option value="GraterNoida west">Greater Noida west</option>
+              <option value="Noida">Noida</option>
+              <option value="Ghaziabad">GHaziabad</option>
+            </select>
+            <label for="city">city</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="text"
+              name="Specify_your_locality"
+              id="floating_Specify_your_locality"
+              placeholder="Locality"
+              class="form-control"
+              required
+            />
+            <label for="Specify_your_locality">Specify your Locality</label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <textarea
+              name="address"
+              id="floating_address"
+              class="form-control"
+              placeholder="address"
+              required
+            ></textarea>
+            <label for="address">Address</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input
+              type="number"
+              id="pincode"
+              name="pincode"
+              minlength="6"
+              maxlength="6"
+              class="form-control"
+              required
+            />
+            <label for="pincode">Pin Code </label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="Nearest_Airport"
+              id="Nearest_Airport"
+              class="form-control"
+              required
+            >
+              <option value="float">Select Nearest Airport</option>
+              <option value="Delhi">Delhi</option>
+              <option value="lucknow">Lucknow</option>
+              <option value="varanasi">Varanasi</option>
+              <option value="Mumbai">Mumbai</option>
+              <option value="Bangaluru">Bangaluru</option>
+              <option value="chennai">Chennai</option>
+              <option value="kolkata">Kolkata</option>
+              <option value="goa">Goa</option>
+              <option value="vadodara">vadoara</option>
+              <option value="Tiruchippalli ">Tiruchippalli</option>
+              <option value="Visakhapatnam">Vishakhapatnam</option>
+              <option value="Prayagraj">Prayagraj</option>
+              <option value="jorhat">Jorhat</option>
+              <option value="Surat ">Surat</option>
+              <option value="jodhpur">jodhpur</option>
+              <option value="Lengpui Airport">Lengpui Airport</option>
+            </select>
+            <label for="NearestAirport">Nearest Airport</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="primarybusiness"
+              class="form-control"
+              id="primarybusiness"
+            >
+              <option value="Select_primary_business">
+                Select Nearest Airport
+              </option>
+              <option value="air_ticket">Air Ticet</option>
+              <option value="railway_ticket">Railway Ticket</option>
+              <option value="domestic_tour_Operator">
+                Domestic Tour Operator
+              </option>
+              <option value="International_tour_operator">
+                International Tour Operator
+              </option>
+            </select>
+            <label for="primarybusiness">Primary Business</label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="monthly_business"
+              class="form-control"
+              id="floating-business"
+            >
+              <option value="float">Select Monthly Business</option>
+              <option value="0-5lakhs">0-5lakhs</option>
+              <option value="5-10lakhs">5-10Lakhs</option>
+              <option value="10-20lakhs">10-20lakh</option>
+              <option value="20-30lakhs">20-30lakhs</option>
+              <option value="30-40lakhs">30-40lakhs</option>
+              <option value="40-50lakhs">40-50lakhs</option>
+              <option value="50-70lakhs">50-70lakhs</option>
+              <option value="70-1crore">70-1crore</option>
+              <option value="Above-1crore">Above 1 crore</option>
+            </select>
+            <label for="monthly_business">Montly Business</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="Select_secondary_business"
+              class="form-control"
+              id="primarybusiness"
+            >
+              <option value="Select_secondary_business"></option>
+              <option value="air_ticket">Air Ticet</option>
+              <option value="railway_ticket">Railway Ticket</option>
+              <option value="domestic_tour_Operator">
+                Domestic Tour Operator
+              </option>
+              <option value="International_tour_operator">
+                International Tour Operator
+              </option>
+            </select>
+            <label for="secondarybusiness">Secondary Business</label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <select
+              name="monthly_business"
+              class="form-control"
+              id="floating-business"
+            >
+              <option value="select_monthly_business">
+                Select Monthly Business
+              </option>
+              <option value="0-5lakhs">0-5lakhs</option>
+              <option value="5-10lakhs">5-10Lakhs</option>
+              <option value="10-20lakhs">10-20lakh</option>
+              <option value="20-30lakhs">20-30lakhs</option>
+              <option value="30-40lakhs">30-40lakhs</option>
+              <option value="40-50lakhs">40-50lakhs</option>
+              <option value="50-70lakhs">50-70lakhs</option>
+              <option value="70-1crore">70-1crore</option>
+              <option value="Above-1crore">Above 1 crore</option>
+            </select>
+            <label for="monthly_business">Montly Business</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <div class="row">
+              <div class="col-md-8 col-sm-8 form-floating">
+                <input
+                  type="text"
+                  name="Pan_card_text"
+                  id="Pan_card_text_floating"
+                  pattern="[A-Z]{5}\d{4}[A-Z]{1}"
+                  placeholder="Enter your PAN Card Number"
+                  class="form-control"
+                  required
+                />
+                <label for="Pancard">Pan card</label>
+              </div>
+              <div class="col-md-4 col-sm-4 my-3 form-floating">
+                <label for="@"></label>
+                <button
+                  type="button"
+                  class="btn btn-success "
+                  onclick="verifyPANCardNo()"
+                >
+                  Verify
+                </button>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-md-8 form-floating">
+                <input
+                  type="text"
+                  name="company_gst_no"
+                  id="float_Company_gst_no."
+                  class="form-control"
+                  placeholder="Company GST No."
+                  required
+                />
+                <label for="floating_Company_gst_no.">Company GST No</label>
+              </div>
+              <div class="col-md-4 my-3  ">
+                <button
+                  type="button"
+                  class="btn btn-success "
+                  onclick="verifyPANCardNo()"
+                >
+                  Verify
+                </button>
+                <label for="#"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input type="text" name="Online_OTAs_you_are_working_with?"  class="form-control" placeholder="online OTAs 1" id="float_Online_OTAs_you_are_working_with?" required>
+            <label for="floate_Online_OTAs_you_are_working_with?">Online OTAs you are working with?<strong>*</strong></label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input type="text" id="" name="" placeholder="Series OTAs 1"  class="form-control" required>
+            <label for="float">Series OTAs you are working with <Strong>*</Strong></label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input type="text" name="Online_OTAs_you_are_working_with?"  class="form-control" placeholder="online OTAs 2" id="float_Online_OTAs_you_are_working_with?" required>
+            <label for="floate_Online_OTAs_you_are_working_with?">online OTAs 2</label>
+          </div>
+          <div class="col-md-6 col-sm-12 form-floating">
+            <input type="text" id="" name="" placeholder="Series OTAs 2" class="form-control" required>
+            <label for="float">Series OTAs 2 </label>
+          </div>
+        </div>
+        <div class="row-col-md-3 text-center my-4">
+          <button type="submit" class="btn btn-primary " onclick="SignupFormSubmit()" style="width: 180px; border-radius: 10px; ">Submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
